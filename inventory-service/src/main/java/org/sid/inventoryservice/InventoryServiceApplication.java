@@ -26,8 +26,8 @@ public class InventoryServiceApplication {
 			restConfiguration.exposeIdsFor(Product.class);
 			productRepository.saveAll(
 					List.of(
-							Product.builder().name("telephone").price(2500).quantity(2).build(),
-							Product.builder().name("pc").price(25000).quantity(2).build(),
+							Product.builder().name("telephone").price(2200).quantity(2).build(),
+							Product.builder().name("pc").price(2500).quantity(2).build(),
 							Product.builder().name("clavier").price(25).quantity(1).build()
 
 							)
